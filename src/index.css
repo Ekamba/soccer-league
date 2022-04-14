@@ -1,0 +1,28 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: rgb(23, 77, 71);
+  --secondary-color: rgb(132, 149, 160);
+  --tertiary-color: rgb(5, 36, 56);
+  --active-color: rgb(10, 95, 31);
+  --loading-color: rgb(161, 223, 217);
+  --card-bg-color: rgba(252, 252, 252, 0.897);
+  --card-shadow: 2px 3px 3px 0px rgb(161, 223, 217);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url("../src/images/foot.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
